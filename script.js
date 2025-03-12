@@ -140,18 +140,132 @@ var date = new Date()
 // }
 
 // %%%%% else condition
-if(a > f){
-    console.log(a + " is greater than " + f); // a = 10, b = 10 so condition is false. no output.
+// if(a > f){
+//     console.log(a + " is greater than " + f); // a = 10, b = 10 so condition is false. no output.
     
-}
+// }
 
+// else{
+//     console.log(f + " is greater than " + a); // a = 10, f = 50, so condition is true. get output. 
+// }
+
+// if (f%2 === 1) {
+//         console.log("f is even number"); // get output. because condition is true. 
+//     }
+//     else {
+//         console.log("f is odd number"); // no output. because condition is false. 
+//     }
+
+// %%%% else if condition
+
+// if(a > b){
+//     console.log(a + " is greater than " + a); // a = 10, b = 10 so condition is false. no output.
+    
+// }
+
+// else if( b < a){
+//     console.log(a + " is greater than " + a); // a = 10, b = 10, so condition is false. no  output. 
+// }
+// else {
+//     console.log('Both are same number. '); // output here. 
+    
+// }
+
+
+// if (f%2 === 1) {
+//     console.log("f is odd number"); // no output. because condition is false. 
+// }
+// else if( f%2 === 0) {
+//     console.log("f is even number"); // get output. because condition is true. 
+// }
+// else {
+//     console.log('f is zero'); // no need to execute.   
+// }
+
+// %%% js switch statement
+
+// var date = new Date();
+// var today = date.getDay();
+// switch (today) { // when we use a unvalid number like 9 into value then it will show default case. 
+//     case 0:
+//         console.log('Today is Sunday');
+//         break;
+//     case 1:
+//             console.log('Today is Monday');
+//             break;
+//     case 2:
+//         console.log('Today is Tuesday');
+//         break;
+//     case 3:
+//         console.log('Today is Wednesday');
+//         break;
+//     case 4:
+//         console.log('Today is Thursday');
+//         break;
+//     case 5:
+//         console.log('Today is Friday');
+//         break;
+//     case 6:
+//         console.log('Today is Saturday');
+//         break;
+
+//     default:
+//         console.log('Nothing Found');
+        
+//         break;
+// }
+
+
+// js logical operator
+
+let aa = 12;
+let bb = 13; 
+let cc = 14; 
+let dd = 20;
+
+// if (aa > bb && cc > dd) {
+//     console.log('aa is greater than bb and cc is greater than dd');
+// }
+// else{
+//     console.log('at least one condition is false. '); // print this line. output here.   
+// }
+// if (aa < bb && cc > dd) {
+//     console.log('aa is greater than bb and cc is greater than dd');
+// }
+// else{
+//     console.log('at least one condition is false. '); // print this line. output here.   
+// }
+
+// if (aa > bb && cc < dd) {
+//     console.log('aa is greater than bb and cc is greater than dd');
+// }
+// else{
+//     console.log('at least one condition is false. '); // print this line. output here.   
+// }
+// if (aa <= bb && cc <= dd) {
+//     console.log('aa is greater than bb and cc is greater than dd'); // print this line. output here. this condition is true. 
+// }
+// else{
+//     console.log('at least one condition is false. ');    
+// }
+// if (aa >= bb && cc >= dd) {
+//     console.log('aa is greater than bb and cc is greater than dd');   
+// }
+// else{
+//     console.log('at least one condition is false. ');   // print this line. output here.  
+// }
+if (aa <= bb && cc >= dd) {
+    console.log('aa is greater than bb and cc is greater than dd'); // print this line. output here. this condition is true. 
+}
 else{
-    console.log(f + " is greater than " + a); // a = 10, f = 50, so condition is true. get output. 
+    console.log('at least one condition is false. ');    
 }
-
-
-
-
+if (aa != bb && cc != dd) {
+    console.log('aa is greater than bb and cc is greater than dd');   
+}
+else{
+    console.log('at least one condition is false. ');   // print this line. output here.  
+}
 
 
 
