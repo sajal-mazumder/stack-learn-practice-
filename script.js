@@ -254,18 +254,57 @@ let dd = 20;
 // else{
 //     console.log('at least one condition is false. ');   // print this line. output here.  
 // }
-if (aa <= bb && cc >= dd) {
-    console.log('aa is greater than bb and cc is greater than dd'); // print this line. output here. this condition is true. 
-}
-else{
-    console.log('at least one condition is false. ');    
-}
-if (aa != bb && cc != dd) {
-    console.log('aa is greater than bb and cc is greater than dd');   
-}
-else{
-    console.log('at least one condition is false. ');   // print this line. output here.  
-}
+// if (aa <= bb && cc >= dd) {
+//     console.log('aa is greater than bb and cc is greater than dd');  
+// }
+// else{
+//     console.log('at least one condition is false. ');    // print this line. output here.  
+// }
+// if (aa != bb && cc != dd) {
+//     console.log('aa is greater than bb and cc is greater than dd');  // print this line. output here. condition is true.   
+// }
+// else{
+//     console.log('at least one condition is false. ');    
+// }
+
+
+// ####  ternary operator ###### 
+
+// var vd = 12;
+// var result = vd % 2 === 0 ? 'Even' : 'Odd'
+// //   ------- condition ---- true side : false side 
+// console.log(result);
+
+// %%%% logical and or operator %%%%%%
+
+var name = '';
+var fullName = '';
+
+// if ( name.lenght = 1){
+//     fullName =  "sajal "
+// } else{
+//     fullName = name  
+// }
+// console.log(fullName); ( this if else condition can replace with only one line by using or operator)
+
+// fullName = name || 'sajal' // this is or operator . result = sajal . 
+// console.log(fullName);
+
+// var isOK = true;
+// if (isOK) {
+//     console.log("everything is ok"); // if condition is true then this line will print.   
+// }
+
+// var isOK = false;
+// if (isOK) {
+//     console.log('every');  // if condition is false then this line will no print. 
+// }  // this line can replace with and operator. 
+
+// isOK = true;
+// isOK && console.log('everything is OK') // condition is true, so this line will print. 
+
+// isOK = false;
+// isOK && console.log('everything is OK') // condition is false, so this line will not print. 
 
 
 
