@@ -306,9 +306,61 @@ var fullName = '';
 // isOK = false;
 // isOK && console.log('everything is OK') // condition is false, so this line will not print. 
 
+// $$$$$ js for loop $$$$$$
 
+// for (let index = 0; index < 100; index++) {
+//     console.log(index);  
+// }
 
+// for (let index = 0; index < 100; index+=10) {
+//     // const element = array[index];
+//     console.log(index);    
+// }
 
+// for (let index = 0; index < 100; index++) {
+//     // if (index % 2 === 0) {
+//     //     console.log(index);
+//     // }  
+//     if (index % 2 === 1) {
+//         console.log(index);   
+//     } 
+// }
+
+// for (let index = 0; index > -10; index--) {
+//     console.log(index);   
+// }
+
+// for (let index = 1; index <= 10; index++) {
+//     var sum = 0;
+//     sum += index;
+//     console.log(sum);    
+// }
+
+// var sum = 0;
+// for (let index = 1; index <= 10; index++) {
+//     sum += index;
+//     console.log(sum);    
+// }
+
+// var sum = 0;
+// for (let index = 1; index <= 10; index++) {
+//     var result = sum + index;
+//     sum = result;
+//     console.log(sum);    
+// }
+
+// var sum = 0;
+// for (let index = 1; index <= 10; index++) {
+//     console.log(sum + ' +' + index + ' =' + (sum +index));    
+// }
+
+var sum = 0;
+for (let index = 1; index <= 10; index++) {
+    console.log(sum + ' + ' + index + ' = ' + (sum +index));
+    sum += index;    
+}
+
+console.log('result = '  + sum);
 
 
 
