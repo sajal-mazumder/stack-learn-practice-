@@ -354,13 +354,204 @@ var fullName = '';
 //     console.log(sum + ' +' + index + ' =' + (sum +index));    
 // }
 
-var sum = 0;
-for (let index = 1; index <= 10; index++) {
-    console.log(sum + ' + ' + index + ' = ' + (sum +index));
-    sum += index;    
-}
+// var sum = 0;
+// for (let index = 1; index <= 10; index++) {
+//     console.log(sum + ' + ' + index + ' = ' + (sum +index));
+//     sum += index;    
+// }
 
-console.log('result = '  + sum);
+// console.log('result = '  + sum);
+
+
+// ###### js while loop ########
+// var i = 0;
+// while (i < 10) {
+//     console.log(i);
+//     i++
+// }
+
+// var isRunning = true;
+// while (isRunning) {
+//     var num = Math.round(Math.random() * 10 + 1) // also can write math.floor. 
+//     if (num === 9) {
+//         console.log('Yes ! You win the Lottery. ');
+//         isRunning = false;
+//     }
+//     else{
+//         console.log('The number is ' + num);    
+//     }
+// }
+
+
+
+// var isRunning = false;
+// while (isRunning) {
+//     var num = Math.florr(Math.random() * 10 + 1);
+//     if (num === 9) {
+//         console.log('Yes ! You win the Lottery. ');
+//         isRunning = true;
+//     }
+//     else{
+//         console.log('The number is ' + num);     // no result. condition me be true. 
+//     }
+// }
+
+// ##### do while loop ####### 
+
+// var isRunning = false;
+// do{
+//     console.log('i am fine');
+    
+// }while (isRunning){
+//     console.log(isRunning);
+// }
+
+
+// $$$$ nested loops $$$$$$$
+
+var n = 10;  
+
+// for (let i = 0; i <= n; i++) {
+//     // console.log(i);
+//     var result = ''
+//     for (let j = 1; j <= i; j++) {
+//     //    console.log(j); 
+//     result += j + ' '      
+//     } 
+//     console.log(result);  
+// }
+
+// for (let i = 0; i <= n; i++) {
+//     // console.log(i);
+//     var result = ''
+//     for (let j = 1; j <= n; j++) {
+//     //    console.log(j); 
+//     result +=  ' *  '      
+//     } 
+//     console.log(result);  
+// }
+
+// for (let i = 0; i <= n; i++) {
+//     // console.log(i);
+//     var result = ''
+//     for (let j = 1; j <= i; j++) {
+//     //    console.log(j); 
+//     result +=  ' $  '      
+//     } 
+//     console.log(result);  
+// }
+
+// $$$$$ break statement $$$$$$
+
+// var isRunning = true;
+// while (true) {
+//     var num = Math.round(Math.random() * 10 + 1) // also can write math.floor. 
+//     if (num === 9) {
+//         console.log('Yes ! You win the Lottery. ');
+//         // isRunning = false;
+//         break
+//     }
+//     else{
+//         console.log('The number is ' + num);    
+//     }
+// }
+
+
+// for (let i = 1; i < 20; i++) {
+//     if (i % 3 === 1) {
+//         break
+//     } else{
+//         console.log(i);    // no output
+//     }
+    
+// }
+
+// for (let i = 1; i < 20; i++) {
+//     if (i % 3 === 0) {
+//         break
+//     } else{
+//         console.log(i);    // output here
+//     } 
+    
+// }
+
+// &&&&&& js continue statement. &&&&&&
+
+// for (let i = 0; i <= 20; i++) {
+//     // const element = array[i];
+//     if ( i === 3 || i ===7 || i === 13 ) {  // this line show result. when use && then no skip.
+//         continue
+//     } else{
+//         console.log(i);   
+//     }
+// }
+
+// ****** js infinity for loop ******
+
+// for ( ; ; ) {
+//     var num = Math.round(Math.random() * 10 + 1) // also can write math.floor. 
+//     if (num === 9) {
+//         console.log('Yes ! You win the Lottery. ');
+//         // isRunning = false;
+//         break
+//     }
+//     else{
+//         console.log('The number is ' + num);    // output here. 
+//     }
+// }
+
+
+//  $$$$$$ string literal vs constructor $$$$$$$
+
+// var str = 'sajal'; // literal 
+// var str2 = String('sajal'); // constructor 
+// var str2 = String(true); // constructor 
+// var str2 = String(100); // constructor 
+// console.log(str2);
+
+// var n = 5;
+// var n2 = n + ' '
+// console.log(n2);   // concate string
+// console.log(n + ''); // concatinate string
+// var str = n.toString();  // tozString method 
+// console.log(str);
+// var str = String(n); // constructor 
+// var str = new String(n);
+// console.log(str); // result is [String: '5']
+// console.log(str.toString()); // result is string type
+
+// %%%% js escape notation %%%%%%
+
+// var str = 'I am from \'Bangladesh\'' // add sigle quotation
+// var str = 'I am from \\Bangladesh' // add 1 back slash
+// var str = 'I am from \nBangladesh' // add new line
+// var str = 'I am from \tBangladesh' // add 1 tab
+// var str = 'I am from \\\Bangladesh' // take 1 \. not two.
+// var str = 'I am from \#Bangladesh' // can use all kind of sign. 
+// var str = 'I am from \rBangladesh' // print only bangladesh.  carriage return. 
+// var str = 'I am from \vBangladesh' // add one sign before bangladesh. ♂Bangladesh   vertical tab. 
+// var str = 'I am from \bBangladesh' // no space between from and bangladesh. fromBangladesh  backspace.
+// var str = 'I am from \fBangladesh' // add one sign before bangladesh. ♀Bangladesh  form feed. 
+// console.log(str);
+
+// $$$$ js string comparison $$$$$
+
+// var a = 'hddbe'; // greater
+// var b = 'bdedbbd'; // smalller. 
+
+// console.log(a === b); // false
+// console.log(a > b); // true
+// console.log(a < b); // false
+
+// var a = '00123';
+// var b = 123;
+// console.log(a === b); // false -- type and value check
+// console.log(a == b); // true -- value check
+// console.log(a > b); // false 
+// console.log(a < b); // false
+
+
+
 
 
 
