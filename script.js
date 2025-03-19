@@ -550,6 +550,105 @@ var n = 10;
 // console.log(a > b); // false 
 // console.log(a < b); // false
 
+// %%%%% js string method %%%%%%%
+
+// var a = 'i am ';
+// var b = 'sajal';
+// var c = a.concat(b);
+// console.log(c);
+// var d = c.substring(5, 8); // after index no 5 take to index no 8.
+// var d = c.substring(5,); // after index no 5 take full length. 
+// console.log(d);
+// console.log(c.charAt(7)); // find out specific character.
+// console.log(c.startsWith('i')); // retunns true or false value. 
+// console.log(c.endsWith('l')); // returns true or false value. 
+// console.log(c.toUpperCase()); // text convert to uppercase
+// console.log(c.toLowerCase);  // [Function: toLowerCase] showing result as function. 
+// console.log(c.toLowerCase()); // text convert to lowercase
+// console.log('      avded      '.trim()); // remove unwanted spaces. 
+// console.log(c.split(' ')); // convert string to array based on fixed charecter. [ 'i', 'am', 'sajal' ]
+// console.log(c.split('a')); // convert string to array based on fixed charecter. [ 'i ', 'm s', 'j', 'l' ]
+
+// $$$$ js string length %%%%%%
+
+// var ab = 'i am from bangladesh. ';
+// var length = 0;
+// console.log(ab.charAt(3)); // output a
+// console.log(ab.charAt(28)); //  empty string output. 
+// var vv = ab.charAt(28)
+// console.log(vv); // output empty string.
+// console.log(typeof vv); // checking type of variable.
+
+// while (true) {
+//     if (ab.charAt(length) == '') {
+//         break
+//     } else{
+//         length++
+//     }
+// }
+// console.log(length);
+
+// $$$$$ js array declaration $$$$$$
+
+// var a = [1, 2, 'a', 'b', 16, true, 'ab']; // using literal 
+// a[12] = 34; // adding new index
+// a[3] = 67; // replacing existing index
+// console.log(a); // 
+// console.log(a.length); // checking array length
+// console.log(a[8]); //  checking an usassigned index number. 
+
+// another way of declaring array . using constructor.
+// var a = Array(1, 3, 4);
+// console.log(a);
+
+// $$$$ js array traverse $$$$$
+var a = [21,3, 32, 1, 43, 22, 667];
+var sum = 0;
+// console.log(a);
+for (let i = 0; i < a.length; i++) {
+    // const element = array[i];
+    // console.log(a[i]); // this line print array traverse. every element takes one individual line. 
+    // a[i] += a[i] + 4;
+    // console.log(a[i]); // print adding 4 with every element and takes one individual line. 
+    // a[i] = a[i] + 4;
+    // console.log(a); // this console print a adding 4 with every element for 7 times due to array length is 7.
+    // sum += a[i];
+    // console.log(sum); // print every number adding with previous number and takes one line. 
+    
+}
+// console.log(sum); // this line print total of number for one time. 
+for (i = 0; i < a.length; i++){
+    // if (a[i] % 2 === 0) {
+    //     console.log(a[i]);    
+    // }
+    // if (a[i] % 2 === 1) {
+    //     console.log(a[i]);    
+    // }
+    // sum += a[a[i] % 2 === 1];
+    sum += a.a[i] % 2 === 1;
+}
+console.log(sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
