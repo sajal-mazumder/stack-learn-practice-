@@ -602,34 +602,51 @@ var n = 10;
 // console.log(a);
 
 // $$$$ js array traverse $$$$$
-var a = [21,3, 32, 1, 43, 22, 667];
-var sum = 0;
+// var a = [21,3, 32, 1, 43, 22, 667];
+// var sum = 0;
 // console.log(a);
-for (let i = 0; i < a.length; i++) {
-    // const element = array[i];
-    // console.log(a[i]); // this line print array traverse. every element takes one individual line. 
-    // a[i] += a[i] + 4;
-    // console.log(a[i]); // print adding 4 with every element and takes one individual line. 
-    // a[i] = a[i] + 4;
-    // console.log(a); // this console print a adding 4 with every element for 7 times due to array length is 7.
-    // sum += a[i];
-    // console.log(sum); // print every number adding with previous number and takes one line. 
+// for (let i = 0; i < a.length; i++) {
+//     // const element = array[i];
+//     // console.log(a[i]); // this line print array traverse. every element takes one individual line. 
+//     // a[i] += a[i] + 4;
+//     // console.log(a[i]); // print adding 4 with every element and takes one individual line. 
+//     // a[i] = a[i] + 4;
+//     // console.log(a); // this console print a adding 4 with every element for 7 times due to array length is 7.
+//     // sum += a[i];
+//     // console.log(sum); // print every number adding with previous number and takes one line. 
     
-}
+// }
 // console.log(sum); // this line print total of number for one time. 
-for (i = 0; i < a.length; i++){
-    // if (a[i] % 2 === 0) {
-    //     console.log(a[i]);    
-    // }
-    // if (a[i] % 2 === 1) {
-    //     console.log(a[i]);    
-    // }
-    // sum += a[a[i] % 2 === 1];
-    sum += a.a[i] % 2 === 1;
-}
-console.log(sum);
+// for (i = 0; i < a.length; i++){
+//     // if (a[i] % 2 === 0) {
+//     //     console.log(a[i]);    
+//     // }
+//     // if (a[i] % 2 === 1) {
+//     //     console.log(a[i]);    
+//     // }
+//     // sum += a[a[i] % 2 === 1]; // NaN 
+//     // sum += a.a[i] % 2 === 1; // error
+// }
+// console.log(sum);
 
+// $$$$$ js search value $$$$$$
 
+var a = [2,3, 33, 43, 34, 55, 45, 44, 21, 33];
+// var find = 43; // data found
+// var find = 433; // data not found . 
+// isFound = false;
+// for (let i = 0; i < a.length; i++) {
+//     if (a[i] === find) {
+//         console.log('Data found in index no ' + i);
+//         isFound = true;
+//         break
+//     }
+    
+// }
+// if (!isFound) {
+//     console.log('Data not found');
+    
+// }
 
 
 
