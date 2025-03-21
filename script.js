@@ -644,9 +644,122 @@ var a = [2,3, 33, 43, 34, 55, 45, 44, 21, 33];
     
 // }
 // if (!isFound) {
-//     console.log('Data not found');
-    
+//     console.log('Data not found');   
 // }
+
+// %%%% js array data insert, remove and replace %%%%%%%%%
+
+// insert *****
+// a[3] = 99;
+// a.push(98);
+// a.unshift(34);
+// a.splice(3, 0, 56);
+// console.log(a); // all is ok. 
+
+// remove ****
+
+// a[4] = undefined;
+// a[4] = null;
+// a.shift();
+// a.pop();
+// a.splice(3, 1, 97);
+// console.log(a); // all is ok. 
+
+// ##### multidimentional array #####
+
+// 2 dimentional array ***
+// var arr = [
+//     [29, 45, 65, 45, 67, 833],
+//     [23, 45, 85, 95, 87, 493], 
+//     [23, 49, 65, 48, 67, 433]
+// ]
+// // console.log(arr); showing result as combined array. 
+// // console.log(arr[1][3]);
+// // console.log(arr[0]);
+// // console.log(arr[2][2]); // every line has result. 
+// for(var i = 0; i< arr.length; i++){
+//     // console.log(arr); // showing result 3 times, because arr has 3 index. 
+//     for(var j = 0; j< arr[i].length; j++){
+//         // console.log(arr[i]); // print 18 times because arr[i] has total 18 index. 
+//         // console.log(arr[i][j]); print every element into the individual array traversely. every element takes one line.     
+//         console.log( 'index no ' + i + ': ' + arr[i][j]);
+//     }       
+// }
+
+// *** 3 dimentional array 
+
+// var arr = [
+//     [
+//         [2, 45, 543, 333, 64, 34],
+//         [2, 45, 543, 333, 64, 34],
+//         [2, 45, 543, 333, 64, 34]
+//     ],
+//     [
+//         [2, 45, 543, 333, 64, 34],
+//         [2, 45, 543, 333, 64, 34],
+//         [2, 45, 543, 333, 64, 34]
+//     ],
+//     [
+//         [2, 45, 543, 333, 64, 34],
+//         [2, 45, 543, 333, 64, 34],
+//         [2, 45, 543, 333, 64, 34]
+//     ]
+// ]
+// for(var i = 0; i < arr.length; i++){
+//     for(var j = 0; j < arr[i].length; j++){
+//         for(var k = 0; k < arr[i][j].length; k++){
+//             // console.log('index no ' + i + ' : ' + arr[i][j][k]);  // yes ! it is working. 
+//             // console.log(`arr[${i}][${j}][${k}] = ${arr[i][j][k]}` ); // this line print thtee index no for 3 dimensional array.       
+//         }
+//     }
+// }
+
+// let threeDArray = [
+//     [  // First 2D array
+//         [1, 2, 3], 
+//         [4, 5, 6]
+//     ],
+//     [  // Second 2D array
+//         [7, 8, 9], 
+//         [10, 11, 12]
+//     ]
+// ];
+
+// Logging the entire 3D array
+// console.log(threeDArray);
+
+// Accessing a specific element
+// console.log(threeDArray[0][1][2]); // Output: 6 (first 2D array, second row, third element)
+
+// Looping through the 3D array
+// for (let i = 0; i < threeDArray.length; i++) {
+//     for (let j = 0; j < threeDArray[i].length; j++) {
+//         for (let k = 0; k < threeDArray[i][j].length; k++) {
+//             console.log(`threeDArray[${i}][${j}][${k}] = ${threeDArray[i][j][k]}`);
+//         }
+//     }
+// }
+
+
+// %%%% js reverse array %%%%%
+
+var aa1 = [1, 2, 3, 4, 4, 5, 2, 5, 6, 7]
+// aa1.reverse();
+// console.log(aa1);  // this line working. 
+
+// for(var i = 0; i < (aa1.length / 2); i++){
+//     var temp = aa1[i];
+//     aa1[i] = aa1[aa1.length - 1 - i];
+//     aa1[aa1.length - 1 - i] = temp;
+// }
+// console.log(aa1); // it's working. 
+
+
+
+
+
+
+
 
 
 
